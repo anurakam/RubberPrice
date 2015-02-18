@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="463dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/amount_water_View"
+                android:layout_alignBottom="@+id/amount_water_View"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:text="@string/kilo" />
+
+            <TextView
+                android:id="@+id/amount_water_View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/dateDisplay"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/amount_water" />
+
+            <TextView
+                android:id="@+id/amount_sheet_View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/amount_water_View"
+                android:layout_below="@+id/amount_water_View"
+                android:layout_marginTop="26dp"
+                android:text="@string/amount_sheet" />
+
+            <TextView
+                android:id="@+id/amount_lump_View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/amount_sheet_View"
+                android:layout_below="@+id/amount_sheet_View"
+                android:layout_marginTop="25dp"
+                android:text="@string/amount_lump" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/amount_lump_View"
+                android:layout_alignBottom="@+id/amount_lump_View"
+                android:layout_alignLeft="@+id/textView4"
+                android:text="@string/kilo" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/amount_lump_View"
+                android:layout_alignLeft="@+id/textView2"
+                android:text="@string/kilo" />
+
+            <TextView
+                android:id="@+id/amount_scrap_View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/amount_lump_View"
+                android:layout_below="@+id/amount_lump_View"
+                android:layout_marginTop="25dp"
+                android:text="@string/amount_scrap" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/amount_scrap_View"
+                android:layout_alignBottom="@+id/amount_scrap_View"
+                android:layout_alignRight="@+id/textView6"
+                android:text="@string/kilo" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/amount_scrap_View"
+                android:layout_below="@+id/amount_scrap_View"
+                android:layout_marginTop="25dp"
+                android:text="@string/percent_employee" />
+
+            <TextView
+                android:id="@+id/EditText00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView9"
+                android:layout_alignRight="@+id/textView8"
+                android:text="%" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView9"
+                android:layout_below="@+id/textView9"
+                android:layout_marginTop="26dp"
+                android:text="@string/percent_boss" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView11"
+                android:layout_alignRight="@+id/EditText00"
+                android:text="%" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView11"
+                android:layout_below="@+id/textView11"
+                android:layout_marginTop="26dp"
+                android:text="@string/total_price" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView16"
+                android:layout_alignBottom="@+id/textView16"
+                android:layout_alignLeft="@+id/textView15"
+                android:text="@string/bath" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView16"
+                android:layout_below="@+id/textView16"
+                android:layout_marginTop="25dp"
+                android:text="@string/price_boss" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView19"
+                android:layout_alignRight="@+id/textView18"
+                android:text="@string/bath" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView16"
+                android:layout_alignRight="@+id/textView12"
+                android:text="@string/bath" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView13"
+                android:layout_below="@+id/textView13"
+                android:layout_marginTop="27dp"
+                android:text="@string/price_employee" />
+
+            <TextView
+                android:id="@+id/viewSheet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/amount_sheet_View"
+                android:layout_alignBottom="@+id/amount_sheet_View"
+                android:layout_alignLeft="@+id/viewWater"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/viewLump"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView6"
+                android:layout_alignLeft="@+id/viewSheet"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/viewScrap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/amount_scrap_View"
+                android:layout_alignLeft="@+id/viewLump"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/viewPercentEmployee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView9"
+                android:layout_alignBottom="@+id/textView9"
+                android:layout_alignLeft="@+id/viewScrap"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/viewPercentBoss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView11"
+                android:layout_alignLeft="@+id/viewPercentEmployee"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/viewTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView16"
+                android:layout_alignRight="@+id/viewPercentBoss"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/viewTotalEmployee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView16"
+                android:layout_alignBottom="@+id/textView16"
+                android:layout_alignLeft="@+id/viewTotal"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/datehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/amount_scrap_View" />
+
+            <TextView
+                android:id="@+id/viewTotalBoss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView19"
+                android:layout_alignBottom="@+id/textView19"
+                android:layout_alignLeft="@+id/viewTotalEmployee"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/viewWater"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/amount_sheet_View"
+                android:layout_marginRight="22dp"
+                android:layout_toLeftOf="@+id/textView2"
+                android:text="TextView" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

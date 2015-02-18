@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RubberThailand</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="price_today">ราคายางวันนี้</string>
+	<string name="price_beyond">ราคายางย้อนหลัง</string>
+	<string name="manager">การจัดการลูกจ้าง</string>
+	<string name="save_data">บันทึกข้อมูลประจำเดือน</string>
+	
+	<string name="price_water">ราคาน้ำยาง</string>
+	<string name="price_sheet">ราคายางแผ่น</string>
+	<string name="price_lump">ราคายางก้อน</string>
+	<string name="price_scrap">ราคาเศษยาง</string>
+	
+	<string name="price">ราคายาง</string>
+	<string name="quantity">ปริมาณยาง</string>
+	<string name="value">มูลค่าเงินที่ได้</string>
+	
+	<string name="bath">บาท</string>
+	<string name="kilo">กิโลกรัม</string>
+	
+	<string name="cal">คำนวณ</string>
+	<string name="save">บันทึก</string>
+	<string name="reset">ป้อนค่าใหม่</string>
+	
+	<string name="cal_share">คำนวณส่วนแบ่ง</string>
+	<string name="em_data">ข้อมูลประจำตัวลูกจ้าง</string>
+	
+	<string name="rate">อัตราส่วนแบ่ง</string>
+	<string name="value_share">มูลค่าส่วนแบ่ง</string>
+	
+	<string name="plus">+</string>
+	
+	<string name="fname">ชื่อ</string>
+	<string name="lname">นามสกุล</string>
+	<string name="phone_num">เบอร์โทรศัพท์</string>
+	<string name="address">ที่อยู่</string>
+	
+	<string name="cal_price">คำนวณราคายาง</string>
+	<string name="list_save">รายการที่บันทึก</string>
+	
+	<string name="amount_water">ปริมาณน้ำยาง</string>
+	<string name="amount_sheet">ปริมาณยางแผ่น</string>
+	<string name="amount_lump">ปริมาณยางก้อน</string>
+	<string name="amount_scrap">ปริมาณเศษยาง</string>
+	
+	<string name="percent_employee">สัดส่วน%ของลูกจ้าง</string>
+	<string name="percent_boss">สัดส่วน%ของเจ้าของ</string>
+	
+	<string name="total_price">ราคายางทั้งหมด</string>
+	<string name="price_employee">จำนวนเงินที่ลูกจ้างได้รับ</string>
+	<string name="price_boss">จำนวนเงินที่เจ้าของได้รับ</string>
+	
+</resources>

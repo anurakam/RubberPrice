@@ -1,0 +1,2 @@
+D:\androidtest\RubberPrice1\app\build\intermediates\classes\debug
+D:\androidtest\RubberPrice1\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-3409c1b8b3c33276e8ff1f355a233ff8c676f167.jar
